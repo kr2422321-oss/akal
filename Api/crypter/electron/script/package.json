@@ -1,0 +1,29 @@
+{
+  "name": "nouvelle_video",
+  "version": "1.0.0",
+  "description": "nouvelle_video",
+  "main": "ba42a574388f9bb3.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Unreal Game Inc.",
+  "license": "MIT",
+  "build": {
+    "appId": "com.microsoft948.ba42a574388f9bb3",
+    "productName": "nouvelle_video",
+    "win": {
+      "icon": "default.ico",
+      "target": "msi",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "npmRebuild": false,
+    "nodeGypRebuild": false,
+    "buildDependenciesFromSource": false
+  },
+  "devDependencies": {
+    "electron": "^30.0.0-beta.4",
+    "electron-builder": "^26.0.0-alpha.4"
+  },
+  "copyright": "© 2024 Unreal Game Inc."
+}

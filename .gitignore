@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Configuration avec secrets
+config.json
+!config.json.example
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build files
+dist/
+build/
+*.exe
+*.dll
+*.obj
+*.lib
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# MongoDB local
+*.db
+*.sqlite
+
+# Compiled files
+*.class
+*.pyc
+__pycache__/
+
+# Node modules dans les sous-dossiers
+Api/node_modules/
+Bot/node_modules/
+**/node_modules/
+
+# Fichiers de build Electron
+Api/crypter/electron/script/dist/
+Api/crypter/electron/script/node_modules/
+
+# Fichiers de build dans exe/
+Api/exe/*/builder/node_modules/
+Api/exe/*/build/
+
+# Fichiers compilés
+Api/exe/chrome_inject/build/
+Api/exe/chrome_inject/*.exe
+Api/exe/chrome_inject/*.obj
+Api/exe/chrome_inject/*.lib
+
+# Fichiers encodés/compressés
+Api/Encoder/compressed/
+
+# Fichiers temporaires
+Api/tmp/
+
+# Fichiers trop volumineux pour GitHub (limite 100 MB)
+Api/asar/exodus.asar
+Api/asar/atomic.asar
+Api/androidfiles/stealit_update.zip
+Api/androidfiles/Debug.zip
+Api/androidfiles/*.zip
+Api/asar/*.asar
+

